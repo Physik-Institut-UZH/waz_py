@@ -7,11 +7,12 @@ First setup the enviroment:
 
 ```bash
 cd wazpo 
-conda env create -f
+conda env create -f environment.yml
+conda activate wazpo  
 ```
-This creates an environment with conda and install, local to that environment, all the necessary packages. 
-
-**NOTE:** the environment runs python=2.7
+This creates an environment with conda and installs, local to that environment, all the necessary packages. 
+The third line activates the environment, you need call that line every time you want to use this library.
+**NOTE:** the environment runs python=2.7.
 
 Now install the executable:
 ```
