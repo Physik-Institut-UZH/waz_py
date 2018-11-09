@@ -10,6 +10,7 @@ cd wazpo
 conda env create -f
 ```
 This creates an environment with conda and install, local to that environment, all the necessary packages. 
+
 **NOTE:** the environment runs python=2.7
 
 Now install the executable:
